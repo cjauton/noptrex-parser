@@ -17,13 +17,13 @@ To use the `noptrex.cpp` program, follow these steps:
 3. Modify the `CONF` file to set the necessary environment variables (configurations) for your analysis. Refer to the provided example values in the `noptrex.cpp` program and adjust them according to your specific requirements.
 4. Run the compiled executable with the desired parameters. For example:
 
-```bash
-./noptrex -run 123 -verbose 1 -opt "some_option"
-```
+    ```bash
+    ./noptrex -run 123 -verbose 1 -opt "some_option"
+    ```
 
-Replace 123 with the desired run number. Adjust the verbose parameter (0 or 1) to control the verbosity of the program's output. Modify "some_option" with any additional options you want to pass to the program.
+    Replace 123 with the desired run number. Adjust the verbose parameter (0 or 1) to control the verbosity of the program's output. Modify "some_option" with any additional options you want to pass to the program.
 
-5. The program will process the data files based on the provided configurations and parameters. 
+5. The program will process the data files based on the provided configurations and parameters.
 6. The results will be stored in a ROOT TTree object.
 
 Or run from the ROOT interactive terminal by running `root` then load the `noptrex.cpp` macro:
@@ -44,4 +44,5 @@ Use the generated results for further analysis or visualization using ROOT libra
 Contributions to this project are welcome. If you have any suggestions, improvements, or bug fixes, please create an issue or submit a pull request.
 
 ## License
+
 This program is provided under an open-source license. Please see the LICENSE file for more information.
