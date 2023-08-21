@@ -1,6 +1,6 @@
 # NOPTREX Parser
 
-The `noptrex.cpp` program is a physics data analysis tool that performs various analysis tasks on raw data files and produces results for further investigation.
+The `noptrex.cpp` program is a physics data analysis tool that performs various analysis tasks on raw binary data files and produces results for further investigation.
 
 ## Description
 
